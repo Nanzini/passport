@@ -106,12 +106,12 @@
 
   ### 1.3 passpoar의 전체적인 흐름도
   ---------------------------------
-
-    1.로그인요청 //get.post( url, func )
-    2.func가 passport관련 함수라면 
-        2-1)passport.js로 와서 대응되는 전략/전략설정을 토대로 전략을 실행
-        2-2)passport내장함수로 로그인이 성공하면 serialize로 팔찌를 얻고 deserialize로 페이지이동시마다 확인하는       과정이 실행된다
-    3.자유이용권 팔찌들은 express-session의 설정을 따르며, passport초기화, passport녀석들에게 sessionID를 쓰는 정책을 쓴다
+<br>
+1.로그인요청 //get.post( url, func ) <br>
+2.func가 passport관련 함수라면 <br>
+  2-1)passport.js로 와서 대응되는 전략/전략설정을 토대로 전략을 실행<br>
+  2-2)passport내장함수로 로그인이 성공하면 serialize로 팔찌를 얻고 deserialize로 페이지이동시마다 확인하는 과정이 실행된다<br>
+3.자유이용권 팔찌들은 express-session의 설정을 따르며, passport초기화, passport녀석들에게 sessionID를 쓰는 정책을 쓴다<br>
   
 <br>
 
